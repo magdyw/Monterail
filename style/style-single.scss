@@ -1,0 +1,176 @@
+
+@import 'colors';
+@import 'fonts';
+
+body {
+	font-size:12px;
+}
+
+#top-header {
+	
+	h1{
+
+	}
+	h4 {
+	text-align:right;
+	padding-top:30px;
+	display:block;
+
+	}
+}
+
+.pytanie{ 
+	background-color:white; 
+	padding-right:15px;
+	.profile-box{
+		text-align:center;
+		background-color:$background-blue;
+		min-height: 80px;
+		img{
+			max-width:60px;
+			padding-top: 10px;
+		}
+	}
+	
+
+	#question{
+		background-color:$background-blue;
+		height:80px;
+		text-align: left;
+		padding-top:10px;
+	}
+
+	.following {
+		min-height: 80px;
+		padding-top:30px;
+		background-color:$background-blue;
+	}
+	.second-row {
+		min-height:100px;
+	}
+	.blue-column {
+		background-color:$background-blue;
+
+		height: 100px;
+	}
+	#text-area {
+		text-align:left;
+		height: 100px;
+		padding-top:30px;
+		padding-left:30px;
+	}
+
+	.votes-count{ 
+		padding-top:40px;
+	}
+	.voting {
+		text-align:center;
+		img {
+			max-width:20px;
+			padding-top:0px;
+			margin-left:-10px;
+		}
+		.up {
+			padding-top:30px;
+			padding-bottom:5px;
+		}
+
+	}
+	
+
+}
+
+
+#peers { 
+	height:60px;
+	background-color:$background-grey-light;
+	margin-left: -30px;
+	padding-left:-20px;
+
+}
+.white-line {
+	min-height:100px;
+}
+
+.answer {
+	.profile-picture {
+		background-color:white;
+		margin-left:-15px;
+		height:100px;
+		img {
+			max-width: 40px;
+			padding-top:20px;
+		}
+	}
+	.text-area {
+		text-align:left;
+		height: 100px;
+		padding-top:30px;
+		padding-left:20px;
+	}
+	.votes-count {
+		padding-top:20px;
+	}
+	.voting {
+		text-align:center;
+		img {
+			max-width:20px;
+			padding-top:0px;
+			margin-left:-10px;
+		}
+		.up {
+			padding-top:30px;
+			padding-bottom:5px;
+		}
+	}
+
+
+	#blank {
+	@extend .profile-picture;
+		background-color: $background-grey-light;
+	}
+.col-md-7, .col-md-5 {
+	text-align:left;
+	}
+
+}
+
+
+.container {
+
+}
+
+
+/* global */ 
+
+ #vote-up-3, #vote-down-3 {
+	margin-left:20px;
+}
+
+
+
+/* -- - - - - - - - */
+
+
+.square-button{
+	margin-left:40%;
+	margin-top:245px;
+	text-align:center;
+	z-index:9999;
+	position:absolute;
+	border: 1px solid $font-grey;
+	background-color:white;
+	width:180px;
+	height:24px;
+}
+
+.sqr{ 
+margin-top:90px;
+
+}
+
+
+#content {
+	padding-bottom:50px;
+}
+

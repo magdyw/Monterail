@@ -1,0 +1,271 @@
+@import 'colors';
+@import 'fonts';
+
+body { 
+	background-color: $background-orange;
+	font-size:10px;
+}
+html,body { height:100%; }
+
+
+[class*="col-"] {
+	padding-left: 0;
+	padding-top: 0;
+	padding-right: 0;
+	
+}
+
+
+
+
+/* -------------------------------------------------------------------  
+
+				HEADER TOP 
+
+------------------------------------------------------------------- */
+
+
+	#container-top{
+		background-color: white;
+		#top-header{
+			background-color:white;
+			height:100px;
+
+	/* first line in header for questions and form and sorting */ 
+
+			div {
+				margin-left:-10px;
+					h2 { 
+						/*questions napis*/
+						margin-top:20px;
+					}
+ 						#sorting, form {
+							text-align:right;
+							margin-top:30px;
+							font-size:15px;
+						}	
+						#sorting{
+							p{
+								margin-right:-25px;
+							}
+						}
+			}
+		
+ 			.search-box, .search-btn {
+	 			height:25px;
+	 			border: 1px solid $background-grey;
+	 			text-align:Center;
+	 			font-size:12px;
+	 			padding: 2px;
+ 			}
+
+			.search-box { 
+				max-width:655px;
+				margin-right:45px;
+			}
+			.search-btn {
+				display:inline-block;
+				max-width:150px;
+			}
+		}
+}
+
+
+/* -------------------------------------------------------------------  
+
+				/ HEADER TOP 
+
+------------------------------------------------------------------- */
+
+
+
+
+
+/* -------------------------------------------------------------------  
+
+				SITE CONTENT
+
+------------------------------------------------------------------- */
+
+
+.container { 
+	background-color:$background-grey-light;
+		#site-content {
+			background-color:white;
+		
+		/* ---------- 1st line question ---------- */
+			text-align:center;
+			
+			.profile-box, .question-line { 
+			background-color:$background-blue;
+			height:60px;
+			padding-top:5px;
+		}
+
+		.profile-box { 
+			img{
+				max-width:50px;
+				position:relative;
+				margin-top:5px;
+			}
+		}
+
+		.question-line{
+			text-align:left;
+		}
+
+		/* ---------- 2nd line question ---------- */
+		.blue-stripe, .white-stripe { 
+			height:20px;
+		}
+		.blue-stripe{
+			background-color:$background-blue;
+		}
+		.white-stripe{
+		background-color:white;
+		}
+
+		/* ---------- 3rd line question ---------- */
+
+		.blue-column, .comment-answer { 
+			text-align:center;
+			height:180px;
+			img{
+					max-width:50px;
+					padding-top:15px;
+				}
+		}
+
+		.blue-column { 
+			background-color: $background-blue;
+			
+			.line-separator{ 
+				margin-left: auto;
+				margin-right:auto;
+				height:1px;
+				MAX-WIDTH:80%;
+				background:#717171;
+				border-bottom:1px solid BLACK;
+				margin-top:150px;
+			}
+		}
+
+		.comment-answer {
+			background-color: $background-grey;
+			border-left: 4px solid white;
+				.dot{ 
+					max-width:10px;
+					position:absolute;
+					margin-top:-17px;
+					z-index:93993;
+				}
+				.line-separator{
+					margin-left: auto;
+					margin-right:auto;
+					height:1px;
+					MAX-WIDTH:80%;
+					background:#717171;
+					border-bottom:1px solid BLACK;
+					margin-top:85px;
+				}
+		}
+
+		.span-comment-answer{
+			background-color:white;
+				p{   
+					padding-top:63px;
+					line-height:15px;
+					font-size:12px;
+				}
+				img{   
+					opacity:0.5;
+					position:absolute;
+					padding-top:15px;
+				}
+		}
+
+
+	}
+
+	/* ---------- right hand side 3-lines summary for question ---------- */
+
+	.summary {
+		position:relative;
+		display:inline-block;
+		text-align:center;
+		margin-top: 100px;	
+		font-size:13px;
+	}
+
+	/* under white line, probably goes here */
+	.white-line  {
+		height:30px;
+		background-color:white;
+		border-bottom: 1px solid $background-grey;
+		margin-left:-15px;
+	}
+
+	.load-more {
+		height:70px;
+		text-align:left;
+		background-color: white;
+		margin-left:-15px;
+		font-size:13px;
+
+	}
+
+}
+
+
+.margin-left, .margin-right{
+	background-color: $background-grey-light;
+}
+
+
+/* -------------------------------------------------------------------  
+
+				/ SITE CONTENT
+
+------------------------------------------------------------------- */
+
+
+
+
+
+
+/* -------------------------------------------------------------------  
+
+				/ FOOTER
+
+------------------------------------------------------------------- */
+
+.footer{
+	min-height:40px;
+}
+
+/* -------------------------------------------------------------------  
+
+				FOOTER
+
+------------------------------------------------------------------- */
+
+
+
+
+
+/* ---------------------  	edit to a modal box, overwrite it   ----------------------- */
+
+.modal-visible{
+
+	margin-top:-1000px;
+	margin-left:0;
+	width:800px;
+	min-height:900px;
+	z-index: 999999999999;
+}
+
+
+
+
+
+

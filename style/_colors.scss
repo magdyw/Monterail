@@ -1,0 +1,21 @@
+/* colors used for backgrounds */
+
+
+$background-blue: #DFF3FD;
+$background-orange: #FFE2AE;
+$background-grey: #F1F1F1;
+$background-grey-light: #FCFCFC;
+
+
+$color-shadow-1: darken($background-orange, 20%);
+
+/*fonts*/
+$serif: 'Playfair Display', serif;
+$sans: 'Roboto', 'Helvetica Neue', sans-serif;
+
+$light: 300;
+$normal: 400;
+
+$font-grey: #A69594;
+$font-red: #E31B41;
+$font-blue: #1D66B1;

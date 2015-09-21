@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<!-- Fonts google -->
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<link rel="stylesheet" type="text/css" href="style/style-single.css">
+<link rel="stylesheet" type="text/css" href="style/modal.css">
+
+
+
+
+</head>
+
+<body>
+<!--   NON VISIBLE MASK, FOR MODAL BOX -->
+      <div class="mask">
+      </div>     
+<!--  NON VISIBLE MASK, FOR MODAL BOX  -->
+
+
+
+
+<!-- =======================   HEADER  ======================= -->
+
+<div class="row">
+  <div class="col-md-12" id="container-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12" id="top-header"> 
+          
+            <div class="row">
+          <div class="col-md-2"> </div>
+        
+          <div class="col-md-4">
+            <h1> QUESTION</h1> 
+          </div>
+        
+          <div class="col-md-4">
+            
+              <h4 class="black-italic-serif "> Last time discussed 1 day ago.  </h4>
+            </div>
+
+            <div class="col-md-2"> </div> 
+            <br>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- =======================  / HEADER  ======================= -->
+
+
+
+<!-- ======================  SITE CONTENT  ==================== -->
+
+<div class="container" id="content"> 
+  <div class="row">
+    <div class="col-md-2"></div> <!--margin left --> 
+    <div class="col-md-8" id="site-content">
+      
+      <div class="row pytanie">
+          <div class="square-button">
+            <p class="black-sans"> GIVE new answer</p>
+          </div>
+      <div class="md-col-12">
+
+        <div class="row">
+          <div class="col-md-2 profile-box"> 
+            <img src="img/profile-1.png">
+          </div> <!--miejsce na profile-picture --> 
+
+          <div class="col-md-8" id="question"> 
+            <p class="grey-upper-sans"> 
+                <a class="profile"> Eva </a> is asking 
+              </p> 
+              <p class="blue-italic-serif"> <i> Will insuline make my patient gain weight?</i>
+              </p>
+          </div> <!--miejsce na pytanie--> 
+
+          <div class="col-md-2 following"> 
+          <p class="blue-sans">unfollow </p>
+          </div> <!--miejsce na unfollow --> 
+
+
+        </div> <!-- pierwsza linia pytania--> 
+
+
+        <div class="row second-row">
+
+          <div class="col-md-2 blue-column"> </div> <!-- blue column --> 
+
+          <div class="col-md-7 text-area" id="text-area">
+           Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna.
+
+
+           </div> <!--miejsce na tekst, tresc --> 
+
+          <div class="col-md-2">
+             <p class="black-serif votes-count">  0 votes</p> 
+          </div> <!-- miejsce na votes napis --> 
+
+          
+            
+            <div class="col-md-1 voting"> 
+         <div class="row">
+            <div class="col-md-12 up">
+                <div class="vote-up" id="vote-up-1">
+                <a><img  src="img/up.png"></a> 
+                </div>
+            </div>
+          </div>
+        <div class="row">
+            <div class="col-md-12">
+              <div class="vote-down" id="vote-down-1">
+                <a> <img src="img/down.png"></a>
+              </div>
+             </div>
+        </div>
+ 
+        
+
+          </div> <!--miejsce na głosowanie --> 
+
+
+        </div> <!-- druga linia pytania --> 
+        </div> <!-- 12 kolumn dla pytania --> 
+  </div> <!-- row dla pytania --> 
+
+
+
+<div class="row" id="peers"> <div class="col-md-12"> </div></div> <!-- białe miejsce pod pytaniem --> 
+
+<!-- odpowiedzi na pytanie --> 
+<div class="row answer">
+
+
+    <!--miejsce na zdjecie --> 
+    <div class="col-md-2 profile-picture">
+       <a class="profile"><img src="img/profile-1.png"> </a>
+    </div>  <!-- end of profile picture --> 
+
+    <!-- wszystko boo profile picture --> 
+    <div class="col-md-7">
+      <div class="row">
+        
+        <div class="col-md-12"> 
+             <p class="grey-upper-sans"> 
+                <a class="profile"> Eva </a> 
+                  ASKED <span> yesterday </span></p> 
+              
+        </div>
+        <!-- to ze skomentowala wczoraj --> 
+      
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-area">
+        <p> 
+            Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna.
+          </p>
+        </div>
+         
+<!-- tresc --> 
+      </div>
+
+
+
+    </div> <!-- wszystko obok profile picture --> 
+
+    <div class="col-md-2"> 
+      <p class="black-serif votes-count">  0 votes</p> 
+    </div> <!-- ile votes napis --> 
+
+    <div class="col-md-1 voting"> 
+         <div class="row">
+            <div class="col-md-12 up">
+                <div class="vote-up" id="vote-up-2">
+                <a><img  src="img/up.png"></a> 
+                </div>
+            </div>
+          </div>
+        <div class="row">
+            <div class="col-md-12">
+              <div class="vote-down" id="vote-down-2">
+                <a> <img src="img/down.png"></a>
+              </div>
+             </div>
+        </div>
+
+    </div> <!-- przyciski do votes --> 
+
+
+
+</div> <!-- pierwsza odpowiedz --> 
+
+
+
+
+
+<!-- opdowiedź druga, jest jak pierwsza ale nie konczy sie paskiem --> 
+
+<!-- odpowiedzi na pytanie --> 
+<div class="row answer">
+
+<div class="square-button sqr">
+                  <p class="black-sans"> GIVE new answer</p>
+              </div>
+
+    <div class="col-md-2" id="blank">
+    </div>
+
+    <!--miejsce na zdjecie --> 
+    <div class="col-md-2 profile-picture">
+       <a class="profile"><img src="img/profile-1.png"> </a>
+    </div>  <!-- end of profile picture --> 
+
+    <!-- wszystko boo profile picture --> 
+    <div class="col-md-5">
+      <div class="row">
+        
+        <div class="col-md-12"> 
+             <p class="grey-upper-sans"> 
+                <a class="profile"> Eva </a> 
+                  ASKED <span> yesterday </span></p> 
+              
+        </div>
+        <!-- to ze skomentowala wczoraj --> 
+      
+      </div>
+      <div class="row">
+        <div class="col-md-12"> 
+            Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna.
+
+        </div>
+        <!-- tresc --> 
+      </div>
+
+
+
+    </div> <!-- wszystko obok profile picture --> 
+
+    <div class="col-md-2"> 
+       <p class="black-serif votes-count">  0 votes</p> 
+    </div> <!-- ile votes napis --> 
+
+    <div class="col-md-1 voting"> 
+         <div class="row">
+            <div class="col-md-12 up">
+                <div class="vote-up" id="vote-up-3">
+                <a><img  src="img/up.png"></a> 
+                </div>
+            </div>
+          </div>
+        <div class="row">
+            <div class="col-md-12">
+              <div class="vote-down" id="vote-down-3">
+                <a> <img src="img/down.png"></a>
+              </div>
+             </div>
+        </div>
+
+    </div> <!-- przyciski do votes --> 
+
+
+</div> 
+
+<!-- koniec drugiej odpowiedzi --> 
+
+
+ <!-- i bialy pasek --> 
+
+
+
+<div class="row" id="peers">
+<div class="col-md-12"> </div>
+</div>
+
+
+<!-- koniec bialego paska  --> 
+
+
+<!-- pod tymi odpowiedziami jest pojedyncza odpowiedz --> 
+
+
+<div class="row answer">
+
+<div class="square-button sqr">
+                  <p class="black-sans"> GIVE new answer</p>
+              </div>
+    <!--miejsce na zdjecie --> 
+    <div class="col-md-2 profile-picture">
+       <a class="profile"><img src="img/profile-1.png"> </a>
+    </div>  <!-- end of profile picture --> 
+
+    <!-- wszystko boo profile picture --> 
+    <div class="col-md-7">
+      <div class="row">
+        
+        <div class="col-md-12"> 
+             <p class="grey-upper-sans"> 
+                <a class="profile"> Eva </a> 
+                  ASKED <span> yesterday </span></p> 
+              
+        </div>
+        <!-- to ze skomentowala wczoraj --> 
+      
+      </div>
+      <div class="row">
+        <div class="col-md-12"> 
+            Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna.
+
+        </div>
+         
+      <!-- tresc --> 
+      </div>
+
+
+
+    </div> <!-- wszystko obok profile picture --> 
+
+    <div class="col-md-2"> 
+      <p class="black-serif votes-count">  0 votes</p> 
+    </div> <!-- ile votes napis --> 
+
+    <div class="col-md-1 voting"> 
+         <div class="row">
+            <div class="col-md-12 up">
+                <div class="vote-up" id="vote-up-4">
+                <a><img  src="img/up.png"></a> 
+                </div>
+            </div>
+          </div>
+        <div class="row">
+            <div class="col-md-12">
+              <div class="vote-down" id="vote-down-4">
+                <a> <img src="img/down.png"></a>
+              </div>
+             </div>
+        </div>
+
+    </div> <!-- przyciski do votes --> 
+
+
+
+</div> <!-- pierwsza odpowiedz --> 
+
+
+
+
+<!--koniec pojedynczej odpowiedzi -->
+
+
+
+
+
+
+    </div> <!--end of site content --> 
+
+<div class="row">
+<div class="col-md-12" id="white-line"> </div>
+</div>
+
+
+    <div class="col-md-2"></div><!-- margin right --> 
+
+
+  </div> <!-- end of 2ec row --> 
+</div><!-- end od main container> 
+
+
+
+
+
+
+
+
+
+      <!--  ================== MODAL BOX ===================== -->
+
+<div class="row">
+   <div class="col-md-12 modal-nonvisible ">
+      
+      <!-- CLOSING MODAL --> 
+      <div class="row">
+          <div class="col-md-12 x-button">
+            <p id="x-button">x</p>
+          </div>
+      </div>
+
+      <div class="row">
+          <!-- profile pict --> 
+          <div class="col-md-12 profile-pic">
+            <a class="profile"><img src="img/profile-1.png"> </a>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-md-12"> 
+           <h5 class="blue-sans">Dr. Halima </h5>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div class="row">  
+
+               <div class="col-md-4"> 
+                  <p class=" grey-upper-sans"> member for 5 months </p>
+               </div>
+
+               <div class="col-md-4">
+                  <p class=" grey-upper-sans">last seenc Mondaj afternoon</p>
+               </div>
+
+               <div class="col-md-4">
+                  <p class=" grey-upper-sans">activity level  </p>
+               </div>
+
+             </div>
+
+            <div class="row">
+                <!-- LINE-->
+                <div class="col-md-12 line-separator"></div>
+            </div>
+
+           <div class="row">
+                <!-- how it all started -->
+                <div class="col-md-2" id="left"> < 
+                </div>
+
+                <div class="col-md-8"> 
+                  <h2 class="black-italic-serif"> How it all started </h2>
+                </div>
+
+                <div class="col-md-2" id="right"> > 
+                  </div>
+            </div>
+
+        <div class="row">
+
+            <div class="col-md-2 "></div>
+              <div class="col-md-8 "> 
+                <div class="row">
+                  <div class="col-md-12">
+                  <h5 class="grey-upper-sans">That's where we have been these 5 monts ago</h5>
+                  </div>
+                </div>
+
+
+            <div class="row statistics">
+                    
+                    <div class="col-md-3" >
+                        <h4 class="black-serif"> 46</h4> 
+                        <h6 class="black-italic-serif">peers </h6>
+                        <div  id="shape-1">  </div>
+                    </div>
+                          
+                    <div class="col-md-3" >
+                        <h4 class="black-serif"> 46</h4> 
+                        <h6 class="black-italic-serif">peers </h6>
+                        <div  id="shape-2">  </div>
+                    </div>
+                          
+                    <div class="col-md-3" >
+                        <h4 class="black-serif"> 46</h4> 
+                        <h6 class="black-italic-serif">peers </h6>
+                        <div  id="shape-3">  </div>
+                    </div>
+                          
+
+                    <div class="col-md-3" >
+                        <h4 class="black-serif"> 46</h4> 
+                        <h6 class="black-italic-serif">peers </h6>
+                        <div  id="shape-4">  </div>
+                    </div>
+                          
+
+                </div>
+
+            <div class="row">
+                    <div class="col-md-12 ">
+                      <h5 class="grey-upper-sans">who joined the platform that same period </h5>
+                    </div>
+          
+            </div>
+
+
+            <div class="row">
+                  <div class="col-md-4 profile-picture">
+                         <a class="profile"><img src="img/profile-1.png"> </a>
+                       </div>
+                    <div class="col-md-4 profile-picture">
+                            <a class="profile"><img src="img/profile-1.png">  </a>  
+                    </div>
+                    <div class="col-md-4 profile-picture"> 
+                            <a class="profile"><img src="img/profile-1.png"></a> 
+              </div>      
+            </div>
+
+            <div class="row">
+                  <div class="col-md-4 ">
+                          <h6 class="blue-sans"> Dr. Halima </h6>
+                    </div>
+                    <div class="col-md-4 ">
+                  <h6 class="blue-sans"> Dr. Halima </h6>
+                     </div>
+                    <div class="col-md-4 "> 
+                             <h6 class="blue-sans"> Dr. Halima </h6>
+                    </div>      
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                <h5 class="grey-upper-sans"> the hottest discussion these days </h5>
+                </div>
+            </div>
+           </div>
+
+            <div class="col-md-2 "> </div>
+      </div>
+    </div>
+
+  <div class="row">
+    <div class="col-md-12 discussion ">
+            <a class="profile"><img src="img/profile-1.png"> </a>
+            
+            <h6 class="grey-upper-sans"> 
+                <a class="profile"> Andrew </a> 
+                found the gaurdian article 
+            </h6> 
+      
+        
+        <h4 class="black-italic-serif"> Vegan diet to stop diabets progress</h4>
+                     
+          <div class="row">
+
+            <div class="col-md-2 "> </div>
+            
+            <div class="col-md-2 ">
+              <h5 class="black-serif"> 46 <i> peers </i> </h5>
+            </div>
+
+            <div class="col-md-2 "> 
+              <h5 class="black-serif"> 46 <i> peers </i> </h5>
+            </div>
+
+            <div class="col-md-2 "> 
+              <h5 class="black-serif"> 46 <i> peers </i> </h5>
+            </div>
+                
+            <div class="col-md-2 "> 
+             <h5 class="black-serif"> 46 <i> peers </i> </h5>
+            </div>
+            
+            <div class="col-md-2 "> </div>
+          </div>
+        </div>      
+  </div>
+</div> <!-- /modal -->
+
+</div>
+
+</div> <!-- row modal -->
+
+<!-- ================== / MODAL KONIEC ==================  --> 
+
+
+
+<!--- ===================== FOOTER ======================  --> 
+
+<div class="row">
+  <div class="col-md-12 footer">
+    <br>
+  </div>
+</div>
+
+<!--- ==================== / FOOTER =====================  --> 
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/script2.js"></script>
+</body>
+</html>

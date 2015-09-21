@@ -1,0 +1,262 @@
+/* colors used for backgrounds */
+/*fonts*/
+/* colors used for backgrounds */
+/*fonts*/
+/* class grey-upper-sans */
+.grey-upper-sans {
+  color: #A69594;
+  text-transform: uppercase;
+  font-family: "Roboto", "Helvetica Neue", sans-serif; }
+
+.grey-upper-sans span {
+  color: black;
+  text-transform: lowercase;
+  font-style: italic; }
+
+/* class grey-upper-serif */
+.grey-upper-serif {
+  color: #A69594;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif; }
+
+/* class grey-italic-sans */
+.grey-italic-sans {
+  color: #A69594;
+  font-style: italic;
+  font-family: "Roboto", "Helvetica Neue", sans-serif; }
+
+/* class grey-upper-serif */
+.grey-upper-serif {
+  color: #A69594;
+  font-style: italic;
+  font-family: "Playfair Display", serif; }
+
+/* class blue-italic-sans */
+.blue-italic-sans {
+  color: #1D66B1;
+  font-style: italic;
+  font-family: "Roboto", "Helvetica Neue", sans-serif; }
+
+/* class blue-italic-serif */
+.blue-italic-serif {
+  color: #1D66B1;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  font-size: 16px; }
+
+/* class blue-serif */
+.blue-serif {
+  color: #1D66B1;
+  font-family: "Playfair Display", serif; }
+
+/* class blue-uppefblrcase-serif */
+.blue-uppercase-serif {
+  color: #1D66B1;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase; }
+
+.blue-sans {
+  color: #1D66B1;
+  font-family: "Roboto", "Helvetica Neue", sans-serif; }
+
+/* class red-sans */
+.red-sans {
+  color: #E31B41;
+  font-family: "Roboto", "Helvetica Neue", sans-serif; }
+
+/* black-serif-italic*/
+.black-serif {
+  color: black;
+  font-family: "Playfair Display", serif; }
+
+/* black-serif-italic*/
+.black-italic-serif {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-style: italic; }
+
+/* black-uppercase-sans*/
+.black-uppercase-sans {
+  color: black;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase; }
+
+.black-sans {
+  color: black;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  padding-top: 3px; }
+
+body {
+  background-color: #FFE2AE;
+  font-size: 10px; }
+
+html, body {
+  height: 100%; }
+
+[class*="col-"] {
+  padding-left: 0;
+  padding-top: 0;
+  padding-right: 0; }
+
+/* -------------------------------------------------------------------  
+
+				HEADER TOP 
+
+------------------------------------------------------------------- */
+#container-top {
+  background-color: white; }
+  #container-top #top-header {
+    background-color: white;
+    height: 100px;
+    /* first line in header for questions and form and sorting */ }
+    #container-top #top-header div {
+      margin-left: -10px; }
+      #container-top #top-header div h2 {
+        /*questions napis*/
+        margin-top: 20px; }
+      #container-top #top-header div #sorting, #container-top #top-header div form {
+        text-align: right;
+        margin-top: 30px;
+        font-size: 15px; }
+      #container-top #top-header div #sorting p {
+        margin-right: -25px; }
+    #container-top #top-header .search-box, #container-top #top-header .search-btn {
+      height: 25px;
+      border: 1px solid #F1F1F1;
+      text-align: Center;
+      font-size: 12px;
+      padding: 2px; }
+    #container-top #top-header .search-box {
+      max-width: 655px;
+      margin-right: 45px; }
+    #container-top #top-header .search-btn {
+      display: inline-block;
+      max-width: 150px; }
+
+/* -------------------------------------------------------------------  
+
+				/ HEADER TOP 
+
+------------------------------------------------------------------- */
+/* -------------------------------------------------------------------  
+
+				SITE CONTENT
+
+------------------------------------------------------------------- */
+.container {
+  background-color: #FCFCFC;
+  /* ---------- right hand side 3-lines summary for question ---------- */
+  /* under white line, probably goes here */ }
+  .container #site-content {
+    background-color: white;
+    /* ---------- 1st line question ---------- */
+    text-align: center;
+    /* ---------- 2nd line question ---------- */
+    /* ---------- 3rd line question ---------- */ }
+    .container #site-content .profile-box, .container #site-content .question-line {
+      background-color: #DFF3FD;
+      height: 60px;
+      padding-top: 5px; }
+    .container #site-content .profile-box img {
+      max-width: 50px;
+      position: relative;
+      margin-top: 5px; }
+    .container #site-content .question-line {
+      text-align: left; }
+    .container #site-content .blue-stripe, .container #site-content .white-stripe {
+      height: 20px; }
+    .container #site-content .blue-stripe {
+      background-color: #DFF3FD; }
+    .container #site-content .white-stripe {
+      background-color: white; }
+    .container #site-content .blue-column, .container #site-content .comment-answer {
+      text-align: center;
+      height: 180px; }
+      .container #site-content .blue-column img, .container #site-content .comment-answer img {
+        max-width: 50px;
+        padding-top: 15px; }
+    .container #site-content .blue-column {
+      background-color: #DFF3FD; }
+      .container #site-content .blue-column .line-separator {
+        margin-left: auto;
+        margin-right: auto;
+        height: 1px;
+        MAX-WIDTH: 80%;
+        background: #717171;
+        border-bottom: 1px solid BLACK;
+        margin-top: 150px; }
+    .container #site-content .comment-answer {
+      background-color: #F1F1F1;
+      border-left: 4px solid white; }
+      .container #site-content .comment-answer .dot {
+        max-width: 10px;
+        position: absolute;
+        margin-top: -17px;
+        z-index: 93993; }
+      .container #site-content .comment-answer .line-separator {
+        margin-left: auto;
+        margin-right: auto;
+        height: 1px;
+        MAX-WIDTH: 80%;
+        background: #717171;
+        border-bottom: 1px solid BLACK;
+        margin-top: 85px; }
+    .container #site-content .span-comment-answer {
+      background-color: white; }
+      .container #site-content .span-comment-answer p {
+        padding-top: 63px;
+        line-height: 15px;
+        font-size: 12px; }
+      .container #site-content .span-comment-answer img {
+        opacity: 0.5;
+        position: absolute;
+        padding-top: 15px; }
+  .container .summary {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 13px; }
+  .container .white-line {
+    height: 30px;
+    background-color: white;
+    border-bottom: 1px solid #F1F1F1;
+    margin-left: -15px; }
+  .container .load-more {
+    height: 70px;
+    text-align: left;
+    background-color: white;
+    margin-left: -15px;
+    font-size: 13px; }
+
+.margin-left, .margin-right {
+  background-color: #FCFCFC; }
+
+/* -------------------------------------------------------------------  
+
+				/ SITE CONTENT
+
+------------------------------------------------------------------- */
+/* -------------------------------------------------------------------  
+
+				/ FOOTER
+
+------------------------------------------------------------------- */
+.footer {
+  min-height: 40px; }
+
+/* -------------------------------------------------------------------  
+
+				FOOTER
+
+------------------------------------------------------------------- */
+/* ---------------------  	edit to a modal box, overwrite it   ----------------------- */
+.modal-visible {
+  margin-top: -1000px;
+  margin-left: 0;
+  width: 800px;
+  min-height: 900px;
+  z-index: 999999999999; }
+
+/*# sourceMappingURL=style.css.map */

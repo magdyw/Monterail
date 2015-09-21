@@ -1,0 +1,76 @@
+/* colors used for backgrounds */
+/*fonts*/
+/* class grey-upper-sans */
+.grey-upper-sans {
+  color: #A69594;
+  text-transform: uppercase;
+  font-family: "Roboto", "Helvetica Neue", sans-serif; }
+
+.grey-upper-sans span {
+  color: black;
+  text-transform: lowercase; }
+
+/* class grey-upper-serif */
+.grey-upper-serif {
+  color: #A69594;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif; }
+
+/* class grey-italic-sans */
+.grey-italic-sans {
+  color: #A69594;
+  font-style: italic;
+  font-family: "Roboto", "Helvetica Neue", sans-serif; }
+
+/* class grey-upper-serif */
+.grey-upper-serif {
+  color: #A69594;
+  font-style: italic;
+  font-family: "Playfair Display", serif; }
+
+/* class blue-italic-sans */
+.blue-italic-sans {
+  color: #1D66B1;
+  font-style: italic;
+  font-family: "Roboto", "Helvetica Neue", sans-serif; }
+
+/* class blue-italic-serif */
+.blue-italic-serif {
+  color: #1D66B1;
+  font-style: italic;
+  font-family: "Playfair Display", serif; }
+
+/* class blue-serif */
+.blue-serif {
+  color: #1D66B1;
+  font-family: "Playfair Display", serif; }
+
+/* class blue-uppercase-serif */
+.blue-uppercase-serif {
+  color: #1D66B1;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase; }
+
+/* class red-sans */
+.red-sans {
+  color: #E31B41;
+  font-family: "Roboto", "Helvetica Neue", sans-serif; }
+
+/* black-serif-italic*/
+.black-serif {
+  color: black;
+  font-family: "Playfair Display", serif; }
+
+/* black-serif-italic*/
+.black-italic-serif {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-style: italic; }
+
+/* black-uppercase-sans*/
+.black-uppercase-sans {
+  color: black;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=fonts.css.map */

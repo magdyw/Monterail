@@ -1,0 +1,127 @@
+
+@import 'colors';
+
+
+
+
+
+/* class grey-upper-sans */
+
+.grey-upper-sans{
+color: $font-grey;
+text-transform: uppercase;
+font-family: $sans;
+
+}
+
+
+.grey-upper-sans span { 
+color: black;
+text-transform:lowercase;
+font-style: italic; }
+
+/* class grey-upper-serif */
+
+.grey-upper-serif{
+color: $font-grey; 
+text-transform: uppercase;
+font-family: $serif;
+}
+
+
+/* class grey-italic-sans */
+.grey-italic-sans{
+color: $font-grey; 
+font-style:italic; 
+font-family: $sans;
+}
+
+
+/* class grey-upper-serif */
+.grey-upper-serif{
+color: $font-grey; 
+font-style:italic; 
+font-family: $serif; 
+}
+
+/* class blue-italic-sans */
+.blue-italic-sans{
+color: $font-blue; 
+font-style: italic; 
+font-family: $sans;
+}
+
+
+/* class blue-italic-serif */
+.blue-italic-serif {
+color: $font-blue; 
+font-style: italic; 
+font-family: $serif;
+font-size:16px;
+}
+
+
+/* class blue-serif */
+.blue-serif {
+color: $font-blue; 
+font-family: $serif;
+}
+
+
+/* class blue-uppefblrcase-serif */
+.blue-uppercase-serif {
+color: $font-blue; 
+font-family: $serif;
+text-transform: uppercase;
+}
+
+.blue-sans {
+	color: $font-blue; 
+	font-family: $sans;
+}
+
+/* class red-sans */ 
+.red-sans{
+color: $font-red; 
+font-family: $sans;
+
+}
+
+
+
+
+
+/* black-serif-italic*/ 
+.black-serif {
+	color: black;
+	font-family:$serif; 
+	
+}
+
+/* black-serif-italic*/ 
+.black-italic-serif {
+	color: black;
+	font-family:$serif; 
+	font-style: italic; 
+	
+}
+
+
+
+/* black-uppercase-sans*/ 
+.black-uppercase-sans{
+	color: black;
+	font-family:$sans; 
+	font-size:11px;
+
+text-transform: uppercase;
+}
+	
+
+.black-sans{
+color: black;
+	font-family:$sans; 
+	padding-top:3px;
+}
+
+
